@@ -1,18 +1,18 @@
 package com.refaktorointi.kivipaperisakset;
 
-/**
- * Peli-luokka mallintaa kivi-paperi-sakset -peliä. Peli koostuu kahdesta
- * pelaajasta, jotka pelaavat toisiaan vastaan. Peli päättyy, kun jompikumpi
- * pelaajista saavuttaa kolme voittoa.
- */
-
-/**
+/*
  * Refaktorointi:
  * Pelin logiikka jaettu metodeiksi.
  * Voiton tarkistusta selvennetty.
  * Tieto pelaajien voitoista siirretty pelaaja-luokkaan.
  * Kovakoodatut arvot siirretty final muuttujiksi.
  * Valinnat muutettu enumeiksi.
+ */
+
+/**
+ * Peli-luokka mallintaa kivi-paperi-sakset -peliä. Peli koostuu kahdesta
+ * pelaajasta, jotka pelaavat toisiaan vastaan. Peli päättyy, kun jompikumpi
+ * pelaajista saavuttaa kolme voittoa.
  */
 
 public class Peli {

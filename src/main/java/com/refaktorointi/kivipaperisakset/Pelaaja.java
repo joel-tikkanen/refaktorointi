@@ -1,16 +1,17 @@
 
 package com.refaktorointi.kivipaperisakset;
 
+/*
+ * Refakrotointi:
+   * Valinnat muutettu enumeiksi.
+   * Arvonta siirretty Valinta-enumiin.
+ */
+
 /**
  * Pelaaja-luokka mallintaa yksittäistä pelaajaa kivi-paperi-sakset -pelissä.
  * Pelaaja pitää tietoa omista voitoista.
  */
 
- /**
-  * Refakrotointi:
-    * Valinnat muutettu enumeiksi.
-    * Arvonta siirretty Valinta-enumiin.
-  */
 public class Pelaaja {
 
     /** Pelaajan tähän mennessä saavuttamien voittojen määrä. */
